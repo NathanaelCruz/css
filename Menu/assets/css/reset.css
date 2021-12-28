@@ -9,6 +9,10 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
   font-family: "Rubik", sans-serif;
+  font: 400 1.2rem "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
 }

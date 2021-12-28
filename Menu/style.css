@@ -1,0 +1,41 @@
+@import url("./assets/css/reset.css");
+
+.header {
+  width: 100%;
+  max-width: 120rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.header__logo {
+  max-width: 5rem;
+  z-index: 5;
+}
+
+.header__button-hamburguer {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  z-index: 5;
+}
+
+.header__button-hamburguer span {
+  line-height: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header__navigation {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+}
