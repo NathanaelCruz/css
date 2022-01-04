@@ -74,13 +74,23 @@
 
 .header__navigation {
   width: 100%;
-  height: 100%;
-  padding: 8rem 1rem 0;
+  height: 0;
+  padding: 0;
   z-index: 1;
   position: fixed;
   top: 0;
   right: 0;
   background-color: var(--white);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.header__navigation.isOpen {
+  padding: 8rem 1rem 0;
+  height: 100%;
+  visibility: visible;
+  opacity: 1;
 }
 
 .header__menu {
