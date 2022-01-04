@@ -5,7 +5,7 @@ const menu = document.querySelector(".header__navigation");
 buttonHamburguer.addEventListener("click", () => {
   const deviceWidth = window.outerWidth;
 
-  if (deviceWidth < 767) {
+  if (deviceWidth < 900) {
     menu.classList.toggle("isOpen");
     buttonHamburguer.classList.toggle("isOpen");
   }
