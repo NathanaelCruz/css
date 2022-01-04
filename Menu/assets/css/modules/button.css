@@ -1,0 +1,33 @@
+.header__button-hamburguer {
+  width: 4rem;
+  height: 4rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.header__button-hamburguer span {
+  line-height: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.menu__button {
+  padding: 1rem 1.5rem;
+  border: none;
+  transition: 0.3s ease-in-out;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  .header__button-hamburguer {
+    display: none;
+  }
+}

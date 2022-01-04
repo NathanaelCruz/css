@@ -1,0 +1,54 @@
+.header__button-hamburguer.isOpen {
+  position: relative;
+}
+
+.header__button-hamburguer.isOpen span:nth-last-child(2) {
+  opacity: 0;
+}
+
+.header__button-hamburguer.isOpen span:nth-last-child(1),
+.header__button-hamburguer.isOpen span:nth-last-child(3) {
+  position: absolute;
+  margin: auto;
+  left: 25%;
+  width: auto;
+  height: 1rem;
+  font-size: 2rem;
+}
+
+.header__button-hamburguer.isOpen span:nth-last-child(1) {
+  transform: rotate(45deg);
+}
+
+.header__button-hamburguer.isOpen span:nth-last-child(3) {
+  transform: rotate(-45deg);
+}
+
+.header__navigation.isOpen {
+  padding: 8rem 1rem 0;
+  height: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu__sub.isOpen {
+  margin-top: 1.5rem;
+  height: auto;
+  min-height: 10rem;
+  overflow: auto;
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 900px) {
+  .menu__item:hover > .menu__sub {
+    margin-left: 0;
+    height: auto;
+    min-height: 10rem;
+    overflow: auto;
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+  }
+}

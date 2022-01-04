@@ -1,0 +1,54 @@
+@import url("../base/variables.css");
+
+.header__navigation {
+  background-color: var(--white);
+}
+
+.header__button-hamburguer {
+  background-color: var(--primary);
+}
+
+.header__button-hamburguer.isOpen {
+  background-color: var(--white);
+}
+
+.header__button-hamburguer span {
+  color: var(--white);
+}
+
+.header__button-hamburguer.isOpen span {
+  color: var(--black);
+}
+
+.menu__sub > .menu__item {
+  border-left: 6px solid var(--black);
+}
+
+.menu__link,
+.menu__withSubMenu {
+  color: var(--black);
+}
+
+.menu__link:hover,
+.menu__withSubMenu:hover {
+  color: var(--primary);
+}
+
+.menu__button {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.menu__button:hover {
+  background-color: var(--secondary);
+}
+
+@media (min-width: 900px) {
+  .menu__item:hover > .menu__sub {
+    background-color: var(--bg-color-menu);
+  }
+
+  .menu__sub > .menu__item .menu__link:hover {
+    color: var(--white);
+  }
+}
