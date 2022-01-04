@@ -28,12 +28,48 @@
   justify-content: center;
   padding: 0.5rem;
   z-index: 5;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--primary);
 }
 
 .header__button-hamburguer span {
   line-height: 0.8rem;
   font-weight: 500;
+  color: var(--white);
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.header__button-hamburguer.isOpen {
+  background-color: var(--white);
+  position: relative;
+}
+
+.header__button-hamburguer.isOpen span {
+  color: var(--black);
+}
+
+.header__button-hamburguer.isOpen span:nth-last-child(2) {
+  opacity: 0;
+}
+
+.header__button-hamburguer.isOpen span:nth-last-child(1),
+.header__button-hamburguer.isOpen span:nth-last-child(3) {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 25%;
+  width: auto;
+  height: 1rem;
+  font-size: 2rem;
+}
+
+.header__button-hamburguer.isOpen span:nth-last-child(1) {
+  transform: rotate(45deg);
+}
+.header__button-hamburguer.isOpen span:nth-last-child(3) {
+  transform: rotate(-45deg);
 }
 
 .header__navigation {
