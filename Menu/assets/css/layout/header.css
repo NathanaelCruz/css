@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  max-width: 120rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.header__link-logo {
+  z-index: 5;
+}
+
+.header__logo {
+  max-width: 5rem;
+}
