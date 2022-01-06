@@ -16,43 +16,43 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./assets/index.css" />
   </head>
   <body>
-    <main>
-      <div>
-        <section>
-          <figure>
+    <main class="main">
+      <div class="main__containerTop">
+        <section class="profile">
+          <figure class="profile__content">
             <img
-              src="./images/image-jeremy.png"
+              src="./assets/images/image-jeremy.png"
               alt="Profile's image of Jeremy"
+              class="profile__image"
             />
           </figure>
-          <p>Report for</p>
-          <h1>Jeremy Robson</h1>
+          <p class="profile__text">Report for</p>
+          <h1 class="profile__nameUser">Jeremy Robson</h1>
         </section>
-        <ul>
-          <li><button type="button">Daily</button></li>
-          <li><button type="button">Weekly</button></li>
-          <li><button type="button">Monthly</button></li>
+        <ul class="list__periods">
+          <li class="period">
+            <button type="button" data-filter="daily" class="period__button">
+              Daily
+            </button>
+          </li>
+          <li class="period">
+            <button type="button" data-filter="weekly" class="period__button">
+              Weekly
+            </button>
+          </li>
+          <li class="period">
+            <button type="button" data-filter="monthly" class="period__button">
+              Monthly
+            </button>
+          </li>
         </ul>
       </div>
-      <ul>
-        <li>
-          <figure>
-            <img src="./images/icon-work.svg" alt="Icon of work" />
-          </figure>
-          <section>
-            <header>
-              <h2>Exercise</h2>
-              <button type="button">&#8226; &#8226; &#8226;</button>
-            </header>
-            <h2>4hrs</h2>
-            <footer>
-              <p>Last week - 36hrs</p>
-            </footer>
-          </section>
-        </li>
-      </ul>
+      <ul class="list__timeTracking"></ul>
     </main>
+    <script src="./scripts/data.js" type="module"></script>
+    <script src="./scripts/listTrackingDashboard.js" type="module"></script>
   </body>
 </html>
