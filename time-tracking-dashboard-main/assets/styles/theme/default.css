@@ -1,4 +1,5 @@
 :root {
+  --blue: hsl(246, 80%, 60%);
   --very-dark-blue: hsl(226, 43%, 10%);
   --color-work: hsl(15, 100%, 70%);
   --color-play: hsl(195, 74%, 62%);
@@ -6,4 +7,82 @@
   --color-exercise: hsl(145, 58%, 55%);
   --color-social: hsl(264, 64%, 52%);
   --color-self-care: hsl(43, 84%, 65%);
+  --white: #fff;
+  --very-dark-blue: hsl(226, 43%, 10%);
+  --dark-blue: hsl(235, 46%, 20%);
+  --desaturated-blue: hsl(235, 45%, 61%);
+  --pale-blue: hsl(236, 100%, 87%);
+}
+
+.main__containerTop {
+  background-color: var(--dark-blue);
+}
+
+.profile {
+  background-color: var(--blue);
+}
+
+.profile__image {
+  outline: 2px solid var(--white);
+}
+
+.profile__text {
+  color: var(--desaturated-blue);
+}
+
+.profile__nameUser {
+  color: var(--white);
+}
+
+.period__button {
+  color: var(--desaturated-blue);
+  transition: 0.3s ease-in-out;
+}
+
+.period__button:hover {
+  color: var(--white);
+}
+
+.color-work {
+  background-color: var(--color-work);
+}
+
+.color-play {
+  background-color: var(--color-play);
+}
+
+.color-study {
+  background-color: var(--color-study);
+}
+
+.color-exercise {
+  background-color: var(--color-exercise);
+}
+
+.color-social {
+  background-color: var(--color-social);
+}
+
+.color-self-care {
+  background-color: var(--color-self-care);
+}
+
+.timeTracking__info {
+  background-color: var(--dark-blue);
+}
+
+.header__title {
+  color: var(--white);
+}
+
+.info__time {
+  color: var(--white);
+}
+
+.header__button {
+  color: var(--pale-blue);
+}
+
+.footer__period-timeTracking {
+  color: var(--pale-blue);
 }

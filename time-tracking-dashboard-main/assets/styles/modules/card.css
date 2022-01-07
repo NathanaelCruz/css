@@ -1,0 +1,65 @@
+.card {
+  border-radius: 2.5rem;
+  overflow: hidden;
+}
+
+.timeTracking {
+  position: relative;
+  width: 100%;
+}
+
+.timeTracking__content {
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  z-index: 0;
+}
+
+.timeTracking__info {
+  position: relative;
+  margin-top: 4.8rem;
+  border-radius: 2.5rem;
+  padding: 3.2rem 2.4rem;
+  z-index: 4;
+  display: grid;
+  grid-template-areas: "header header" "hours info";
+  grid-template-columns: 80px 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.info__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+  grid-area: header;
+}
+
+.header__title {
+  font-size: 1.8rem;
+}
+
+.header__button {
+  font-size: 3.4rem;
+  font-weight: 500;
+  margin-left: 0.4rem;
+  height: 3rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  line-height: 50%;
+}
+
+.info__time {
+  font-weight: 300;
+  font-size: 3rem;
+  grid-area: hours;
+}
+
+.info__footer {
+  grid-area: info;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 1.5rem;
+}

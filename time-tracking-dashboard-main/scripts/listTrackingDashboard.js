@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const renderTimeTracking = (listToRender) => {
     let renderObject = listToRender.map((itemRender) => {
       const previewRender = [
-        `<li class="timeTracking color-${itemRender.title
+        `<li class="timeTracking card color-${itemRender.title
           .toLowerCase()
           .replace(" ", "-")}">`,
         '<figure class="timeTracking__content">',
@@ -53,6 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
   buttonChangeTime.forEach((button) => {
     button.addEventListener("click", (element) => {
       const periodName = element.target.getAttribute("data-filter");
+      contentTimesTracking.innerHTML = "";
       loadTimeTracking(periodName);
     });
   });

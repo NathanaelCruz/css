@@ -1,0 +1,48 @@
+.main__containerTop {
+  width: 100%;
+}
+
+.profile {
+  max-width: 100%;
+  margin: 0 auto 1rem;
+  display: grid;
+  grid-template-areas: "profile title" "profile name";
+  grid-template-columns: 85px 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.5rem;
+  padding: 1.6rem;
+}
+
+.profile__content {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: profile;
+}
+
+.profile__image {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.profile__text {
+  grid-area: title;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.profile__nameUser {
+  grid-area: name;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.list__periods {
+  display: flex;
+  padding: 1.6rem;
+  align-items: center;
+  justify-content: space-between;
+}

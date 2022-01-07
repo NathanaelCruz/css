@@ -11,4 +11,19 @@ html {
 body {
   font: 400 1.6rem "Rubik", sans-serif;
   background-color: var(--very-dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  padding: 0.5rem;
+  font: 400 1.6rem "Rubik", sans-serif;
+  background-color: transparent;
+  cursor: pointer;
 }
