@@ -5,3 +5,10 @@
   flex-wrap: wrap;
   gap: 1.6rem;
 }
+
+@media (min-width: 1200px) {
+  .list__timeTracking {
+    flex-wrap: wrap;
+    gap: 3.2rem;
+  }
+}

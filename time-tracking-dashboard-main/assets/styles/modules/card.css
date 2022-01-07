@@ -6,6 +6,7 @@
 .timeTracking {
   position: relative;
   width: 100%;
+  max-width: 30%;
 }
 
 .timeTracking__content {
@@ -62,4 +63,27 @@
   align-items: center;
   justify-content: flex-end;
   margin-left: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+  .list__timeTracking {
+    flex-wrap: wrap;
+  }
+
+  .info__header {
+    width: 100%;
+  }
+  .timeTracking__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .info__time {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+  .info__footer {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
 }

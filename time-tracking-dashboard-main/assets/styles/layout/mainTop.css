@@ -1,5 +1,6 @@
 .main__containerTop {
   width: 100%;
+  max-width: 27rem;
 }
 
 .profile {
@@ -36,7 +37,7 @@
 
 .profile__nameUser {
   grid-area: name;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.8rem;
 }
 
@@ -45,4 +46,30 @@
   padding: 1.6rem;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (min-width: 1200px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 37rem;
+    padding: 4rem;
+    border-radius: 2.5rem;
+  }
+  .profile__text {
+    margin-top: 3rem;
+  }
+  .profile__nameUser {
+    font-size: 4rem;
+  }
+
+  .list__periods {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .list__periods > * {
+    margin-bottom: 1rem;
+  }
 }

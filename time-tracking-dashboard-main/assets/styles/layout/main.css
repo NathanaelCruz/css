@@ -7,3 +7,12 @@
 .main > * {
   margin-bottom: 1.6rem;
 }
+
+@media (min-width: 1200px) {
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.6rem;
+  }
+}
