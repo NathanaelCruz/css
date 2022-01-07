@@ -8,7 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const renderTimeTracking = (listToRender) => {
     let renderObject = listToRender.map((itemRender) => {
       const previewRender = [
-        `<li class="timeTracking color-${itemRender.title.toLowerCase()}">`,
+        `<li class="timeTracking color-${itemRender.title
+          .toLowerCase()
+          .replace(" ", "-")}">`,
         '<figure class="timeTracking__content">',
         `<img src="./assets/images/icon-${itemRender.title
           .toLowerCase()
