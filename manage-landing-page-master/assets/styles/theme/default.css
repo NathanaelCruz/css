@@ -6,3 +6,11 @@
   --pale-red: hsl(13, 100%, 96%);
   --light-gray: hsl(0, 0%, 98%);
 }
+
+button {
+  background-color: transparent;
+}
+
+.header__hamburguer-image {
+  color: var(--primary-blue);
+}

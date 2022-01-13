@@ -1,0 +1,6 @@
+.navbar {
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
