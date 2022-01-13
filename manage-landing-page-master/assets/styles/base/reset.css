@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 400 1.6rem "Be Vietnam Pro", sans-serif;
+}
+
+button,
+textarea,
+input {
+  font: 400 1.6rem "Be Vietnam Pro", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
