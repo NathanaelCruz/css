@@ -6,7 +6,6 @@
 .timeTracking {
   position: relative;
   width: 100%;
-  max-width: 30%;
 }
 
 .timeTracking__content {
@@ -68,6 +67,10 @@
 @media (min-width: 1200px) {
   .list__timeTracking {
     flex-wrap: wrap;
+  }
+
+  .timeTracking {
+    max-width: 30%;
   }
 
   .info__header {

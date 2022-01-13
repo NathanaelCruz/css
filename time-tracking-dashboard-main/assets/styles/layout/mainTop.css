@@ -1,6 +1,5 @@
 .main__containerTop {
   width: 100%;
-  max-width: 27rem;
 }
 
 .profile {
@@ -49,6 +48,9 @@
 }
 
 @media (min-width: 1200px) {
+  .main__containerTop {
+    max-width: 27rem;
+  }
   .profile {
     display: flex;
     flex-direction: column;
