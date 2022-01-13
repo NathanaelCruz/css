@@ -64,7 +64,13 @@
   margin-left: 1.5rem;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 767px) {
+  .timeTracking {
+    max-width: 45%;
+  }
+}
+
+@media (min-width: 1000px) {
   .list__timeTracking {
     flex-wrap: wrap;
   }

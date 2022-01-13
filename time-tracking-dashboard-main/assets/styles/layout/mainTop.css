@@ -47,7 +47,7 @@
   justify-content: space-between;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .main__containerTop {
     max-width: 27rem;
   }
