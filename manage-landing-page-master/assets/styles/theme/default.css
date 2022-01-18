@@ -30,3 +30,11 @@ button {
 .menu__link {
   color: var(--primary-blue);
 }
+
+.text__title {
+  color: var(--primary-blue);
+}
+
+.text__body {
+  color: var(--dark-gray-blue);
+}

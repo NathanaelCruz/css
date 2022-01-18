@@ -3,6 +3,7 @@
   min-height: 100vh;
   visibility: visible;
   opacity: 1;
+  transition: 0.3s ease-in-out;
 }
 
 .isHidden {
