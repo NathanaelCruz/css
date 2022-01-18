@@ -1,6 +1,34 @@
 .navbar {
+  width: 100%;
   height: 0;
+  display: flex;
+
+  position: fixed;
   overflow: hidden;
   visibility: hidden;
+  opacity: 0;
   transition: 0.3s ease-in-out;
+  top: 8rem;
+  left: 0;
+}
+
+.navbar__menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 28rem;
+  height: 25rem;
+  padding: 1.6rem;
+  border-radius: 0.6rem;
+  margin: 1.6rem auto 0;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.06);
+}
+
+.menu__item {
+  margin-bottom: 1.4rem;
+}
+
+.menu__link {
+  font-weight: 500;
 }

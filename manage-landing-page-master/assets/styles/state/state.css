@@ -1,0 +1,10 @@
+.navbar.isActive {
+  height: auto;
+  min-height: 100vh;
+  visibility: visible;
+  opacity: 1;
+}
+
+.isHidden {
+  display: none;
+}

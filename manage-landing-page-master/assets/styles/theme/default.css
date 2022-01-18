@@ -14,3 +14,19 @@ button {
 .header__hamburguer-image {
   color: var(--primary-blue);
 }
+
+.navbar.isActive {
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0.5%,
+    var(--very-dark-blue) 99%
+  );
+}
+
+.navbar__menu {
+  background-color: var(--light-gray);
+}
+
+.menu__link {
+  color: var(--primary-blue);
+}
