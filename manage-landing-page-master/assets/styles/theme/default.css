@@ -39,6 +39,10 @@ button {
   color: var(--dark-gray-blue);
 }
 
+.text__body--fontSmall {
+  color: var(--dark-gray-blue);
+}
+
 .link__button {
   background-color: var(--primary-red);
   color: var(--pale-red);
@@ -52,4 +56,17 @@ button {
     transparent
   );
   transition: 0.3s ease-in-out;
+}
+
+.advantage__index {
+  background-color: var(--primary-red);
+  color: var(--pale-red);
+}
+
+.header__advantage:before {
+  background-color: var(--pale-red);
+}
+
+.item--content__title {
+  color: var(--primary-blue);
 }
