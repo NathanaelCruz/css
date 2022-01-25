@@ -44,3 +44,12 @@ button {
   color: var(--pale-red);
   box-shadow: 0px 5px 8px 3px hsl(12deg 88% 59% / 40%);
 }
+
+.isBGWhite {
+  background-image: linear-gradient(
+    to bottom,
+    var(--light-gray) 70%,
+    transparent
+  );
+  transition: 0.3s ease-in-out;
+}

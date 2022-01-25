@@ -8,6 +8,7 @@
   z-index: 2;
   position: fixed;
   top: 0;
+  transition: 0.3s ease-in-out;
 }
 
 .header__link {

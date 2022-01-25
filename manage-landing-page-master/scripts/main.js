@@ -1,3 +1,4 @@
-import Menu from "./menu.js";
+import Menu, { MenuWithBGWhite } from "./menu.js";
 
 Menu();
+MenuWithBGWhite();
