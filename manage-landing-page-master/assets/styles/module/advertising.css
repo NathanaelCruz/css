@@ -4,6 +4,9 @@
   align-items: center;
   justify-content: center;
   min-height: 40rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
 }
 
 .advertising__title {
