@@ -93,3 +93,16 @@ button {
   color: var(--pale-red);
   box-shadow: 0px 5px 8px 3px hsl(12deg 88% 59% / 40%);
 }
+
+.advertising__content {
+  background-color: var(--primary-red);
+}
+
+.advertising__title {
+  color: var(--pale-red);
+}
+
+.advertising__link {
+  color: var(--primary-red);
+  background-color: var(--pale-red);
+}

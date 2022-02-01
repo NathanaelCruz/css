@@ -1,0 +1,21 @@
+.advertising__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40rem;
+}
+
+.advertising__title {
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: center;
+  max-width: 90%;
+  margin-bottom: 2rem;
+}
+
+.advertising__link {
+  padding: 1.4rem 3rem;
+  font-size: 1.4rem;
+  border-radius: 2.5rem;
+}
