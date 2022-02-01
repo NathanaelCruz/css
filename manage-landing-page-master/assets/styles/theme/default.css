@@ -106,3 +106,32 @@ button {
   color: var(--primary-red);
   background-color: var(--pale-red);
 }
+
+.footer {
+  background-color: var(--very-dark-blue);
+}
+
+.form__button {
+  color: var(--pale-red);
+  background-color: var(--primary-red);
+}
+
+.form__button:hover {
+  filter: brightness(1.25);
+}
+
+.form__alert {
+  color: var(--primary-red);
+}
+
+.form__input::placeholder {
+  color: var(--dark-gray-blue);
+}
+
+.list-item__link {
+  color: var(--pale-red);
+}
+
+.footer__copyright {
+  color: var(--dark-gray-blue);
+}

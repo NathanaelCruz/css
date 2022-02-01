@@ -9,3 +9,7 @@
 .isHidden {
   display: none;
 }
+
+.form__alert.isError {
+  display: block;
+}
