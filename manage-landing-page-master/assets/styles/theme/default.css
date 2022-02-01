@@ -116,10 +116,6 @@ button {
   background-color: var(--primary-red);
 }
 
-.form__button:hover {
-  filter: brightness(1.25);
-}
-
 .form__alert {
   color: var(--primary-red);
 }
@@ -134,4 +130,14 @@ button {
 
 .footer__copyright {
   color: var(--dark-gray-blue);
+}
+
+.form__input.isError {
+  border: 1px solid var(--primary-red);
+  color: var(--primary-red);
+  transition: 0.3s ease-in-out;
+}
+
+.form__input.isError::placeholder {
+  color: var(--primary-red);
 }

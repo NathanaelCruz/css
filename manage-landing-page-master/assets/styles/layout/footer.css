@@ -24,6 +24,7 @@
   border: none;
   margin-bottom: 1rem;
   width: 100%;
+  transition: 0.3s ease-in-out;
 }
 
 .form__button {
@@ -33,6 +34,7 @@
   padding: 1rem 1.4rem;
   margin-left: 1rem;
   font-size: 1.2rem;
+  transition: 0.3s ease-in-out;
 }
 
 .form__alert {
@@ -43,6 +45,7 @@
 
 .form__input::placeholder {
   font-size: 1.2rem;
+  transition: 0.3s ease-in-out;
 }
 
 .footer__nav {
