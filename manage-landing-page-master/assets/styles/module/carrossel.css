@@ -1,0 +1,48 @@
+.carrossel__wrapper {
+  margin-bottom: 3rem;
+}
+
+.carrossel__content {
+  margin-top: 3rem;
+  padding: 0 1.6rem;
+}
+
+.profile__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__name {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+.profile__comment {
+  text-align: center;
+}
+
+.profile__image-carrossel-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  width: 8rem;
+}
+
+.profile__comment {
+  line-height: 1.6;
+  font-weight: 100;
+}
+
+.profile__image-carrossel {
+  width: 100%;
+}
+
+.carrossel__dots {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
