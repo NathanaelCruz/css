@@ -87,3 +87,9 @@ button {
 .carousel-dots button.active {
   background-color: var(--primary-red);
 }
+
+.carousel__link-started {
+  background-color: var(--primary-red);
+  color: var(--pale-red);
+  box-shadow: 0px 5px 8px 3px hsl(12deg 88% 59% / 40%);
+}

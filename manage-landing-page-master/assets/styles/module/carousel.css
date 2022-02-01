@@ -52,3 +52,14 @@
   border-width: 1px;
   border-style: solid;
 }
+
+.carousel__link-started {
+  max-width: 15rem;
+  display: flex;
+  padding: 1.5rem 1.2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2.6rem auto 2rem;
+  border-radius: 2.5rem;
+  font-size: 1.4rem;
+}
