@@ -78,3 +78,12 @@ button {
 .profile__comment {
   color: var(--dark-gray-blue);
 }
+
+.carousel-dots button {
+  border-color: var(--primary-red);
+  background-color: transparent;
+}
+
+.carousel-dots button.active {
+  background-color: var(--primary-red);
+}
