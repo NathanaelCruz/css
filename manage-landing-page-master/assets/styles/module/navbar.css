@@ -32,3 +32,38 @@
 .menu__link {
   font-weight: 500;
 }
+
+@media (min-width: 768px) {
+  .navbar {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    justify-content: flex-end;
+  }
+
+  .navbar__menu {
+    width: auto;
+    height: auto;
+    box-shadow: none;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .menu__item {
+    margin-bottom: 0;
+    margin-left: 1rem;
+  }
+
+  .header__link--get-started {
+    width: 15rem;
+    display: flex;
+    padding: 1.5rem 1.2rem;
+    justify-content: center;
+    margin-left: 1.5rem;
+    align-items: center;
+    text-align: center;
+    border-radius: 2.5rem;
+    font-size: 1.4rem;
+  }
+}

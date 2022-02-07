@@ -9,6 +9,7 @@
   position: fixed;
   top: 0;
   transition: 0.3s ease-in-out;
+  margin: 0 auto;
 }
 
 .header__link {
@@ -40,4 +41,14 @@
 .header__hamburguer-image:after,
 .header__hamburguer-image:before {
   content: "―";
+}
+
+@media (min-width: 768px) {
+  .header {
+    position: static;
+  }
+
+  .header__button {
+    display: none;
+  }
 }
