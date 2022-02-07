@@ -47,4 +47,15 @@
     margin-top: -30rem;
     margin-left: calc(100% - 70rem);
   }
+
+  .pattern__bg--middle {
+    max-width: 80rem;
+    margin-top: 80rem;
+    margin-left: calc(100% - 200rem);
+  }
+  .pattern__bg-advertising {
+    max-width: 70rem;
+    left: 20rem;
+    top: -6rem;
+  }
 }
