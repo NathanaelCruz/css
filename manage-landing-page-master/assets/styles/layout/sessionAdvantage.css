@@ -66,3 +66,30 @@
 .item--content__title {
   font-size: 1.5rem;
 }
+
+@media (min-width: 768px) {
+  .advantage {
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100rem;
+    margin-bottom: 8rem;
+  }
+
+  .advantage__top--target {
+    margin-right: 2rem;
+    justify-content: flex-start;
+  }
+
+  .advantage__top--target .text__title {
+    text-align: left;
+  }
+
+  .advantage__top--target .text__body {
+    text-align: left;
+    width: 100%;
+  }
+
+  .header__advantage:before {
+    display: none;
+  }
+}

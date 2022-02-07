@@ -1,5 +1,6 @@
 .carousel__wrapper {
   margin-bottom: 3rem;
+  max-width: 120rem;
 }
 
 .carousel__content {
@@ -62,4 +63,30 @@
   margin: 2.6rem auto 2rem;
   border-radius: 2.5rem;
   font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+  .carousel__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 1rem;
+    min-height: 29rem;
+  }
+
+  .profile__wrapper {
+    border-radius: 1.4rem;
+    min-height: 20rem;
+    padding: 3rem 1rem 4rem;
+  }
+
+  .profile__image-carousel-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
 }

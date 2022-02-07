@@ -152,4 +152,8 @@ button {
   .navbar__menu {
     background-color: transparent;
   }
+
+  .profile__wrapper {
+    background-color: var(--light-gray);
+  }
 }
