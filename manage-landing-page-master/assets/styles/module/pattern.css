@@ -38,3 +38,13 @@
   z-index: -1;
   opacity: 0.1;
 }
+
+@media (min-width: 768px) {
+  .pattern__bg {
+    max-width: 80rem;
+  }
+  .pattern__bg--top {
+    margin-top: -30rem;
+    margin-left: calc(100% - 70rem);
+  }
+}

@@ -19,3 +19,8 @@
   filter: brightness(1.25);
   transition: 0.3s ease-in-out;
 }
+
+.link__button:hover {
+  filter: brightness(1.25);
+  transition: 0.3s ease-in-out;
+}

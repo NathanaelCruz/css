@@ -23,3 +23,31 @@
   width: 100%;
   max-width: 30rem;
 }
+
+@media (min-width: 768px) {
+  .hero__wrapper {
+    min-width: 767px;
+    max-width: 100rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero__information .text__title {
+    text-align: left;
+  }
+
+  .hero__information .text__body {
+    text-align: left;
+    margin-top: 2rem;
+  }
+  .hero__information .link__button {
+    margin: 3rem 0;
+  }
+  .hero__information {
+    max-width: 40rem;
+  }
+
+  .hero__content {
+    max-width: 50rem;
+  }
+}

@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  max-width: 120rem;
+  max-width: 100rem;
   padding: 4rem 2rem;
   display: flex;
   align-items: center;
@@ -46,6 +46,7 @@
 @media (min-width: 768px) {
   .header {
     position: static;
+    padding: 2rem 0;
   }
 
   .header__button {

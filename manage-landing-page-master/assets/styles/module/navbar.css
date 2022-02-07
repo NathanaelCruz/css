@@ -39,7 +39,7 @@
     opacity: 1;
     visibility: visible;
     height: auto;
-    justify-content: flex-end;
+    justify-content: center;
   }
 
   .navbar__menu {
