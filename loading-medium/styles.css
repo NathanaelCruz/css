@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 20vw;
+}
+
+.circle {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  margin: 0 5px;
+  border-radius: 50%;
+  position: absolute;
+  animation: loading 2s ease-in-out infinite alternate;
+}
+
+.circle:nth-child(1) {
+  background-color: pink;
+  animation-delay: 1s;
+}
+
+.circle:nth-child(2) {
+  background-color: red;
+  animation-delay: 0.8s;
+}
+
+.circle:nth-child(3) {
+  background-color: rgb(52, 140, 190);
+  animation-delay: 0.6s;
+}
+
+.circle:nth-child(4) {
+  background-color: rgb(58, 172, 77);
+  animation-delay: 0.4s;
+}
+
+.circle:nth-child(5) {
+  background-color: rgb(230, 201, 36);
+  animation-delay: 0.2s;
+}
+
+.circle:nth-child(6) {
+  background-color: rgb(235, 81, 165);
+}
+
+@keyframes loading {
+  from {
+    transform: translateX(-400%);
+  }
+  to {
+    transform: translateX(400%);
+  }
+}
